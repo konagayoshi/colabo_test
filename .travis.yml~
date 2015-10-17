@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: YHAcL7gAKdvRjgn6w4poWQ7rC6BiVRa+W3uL5zco63pKwpqNMMt5LBdAfUK0CEQg8FZ1XUHbtVVVkOND8U0vaEXlZAZy9c0KAMq+CUsd1fD5m0LUe+DiR8MwHPx96fg79SnKgH3i6v4yMgQsjsPmIxPxLdvTWXZWYzm4wemtZhu+bCdsvMWgssxD8/xY15ZSPTpgEnZPQO1INoe+8/ObqMTBG6N43L+DO8mlKt84gp7k+oWqvIT3f4ukIZSu1R3cGDzeNFvAkiSrxC5p6YQB8Qp+XzSZ4Rsv8XILVTqfAKomazpCySJNqjhAZVGei+ER1ouxUx4zDRxdjp1VOcg3aP+lYRMJBoE53XhNCRAOj8lrDNgusJkagcbAWmXTFH7EL9gsFYanPm3gJJzRWUMq3gPK3uQLxLVE1Q88ZZSZkx81TDo9htOVgPw0oX/q7qMr1KgnKnQDTh4OPOptRevJzEnc6o7F4GDbHWP2MPfroiE7+0bf/s1vPmgLmTbLPwY+nN5ohGpREpURsnBExmyDOEGz3zg4AjBN4y3PnqnME3yvvAdvXoygszDCXFucsrSI8GBciztGKZUi0GwgQyV81SA2GCDY+01b/6zpFnf5n8h4FRH/D6UhIm0PK5lf2iA55AeOsvFu/2bKHm2bh3iBG02YNjhqPXxea33LqsoxL8Y=
+  app: tranquil-reef-5142
+  on:
+    repo: konagayoshi/colabo_test
