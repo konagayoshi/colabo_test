@@ -1,4 +1,4 @@
 test:
-adapter: postgresql
-database: colabo_test_test
-username: postgres
+  adapter: postgresql
+  database: colabo_test_test
+  username: postgres
